@@ -27,8 +27,10 @@ function processFirstItem(stringList, callback) {
  * Study the code for counter1 and counter2. Answer the questions below.
  * 
  * 1. What is the difference between counter1 and counter2?
+ * counter 1 has the variable outside the function and not residing when the function is called. 
  * 
  * 2. Which of the two uses a closure? How can you tell?
+ * counter 2, variable is defined within the scope.
  * 
  * 3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
  *
@@ -46,7 +48,6 @@ const counter1 = counterMaker();
 
 // counter2 code
 let count = 0;
-
 function counter2() {
   return count++;
 }
@@ -54,17 +55,21 @@ function counter2() {
 
 /* Task 2: inning() 
 
-Write a function called `inning` that generates a random number of points that a team scored in an inning. This should be a whole number between 0 and 2. */
-
-function inning(/*Code Here*/){
+Write a function called `inning` that generates a random number of points that a team scored in an inning. 
+This should be a whole number between 0 and 2. */
+let score = inning();
+function inning(max){
+  return Math.ceil (Math.random() * Math.ceil(max));
+}
+console.log(inning(3));
 
     /*Code Here*/
 
-}
-
+vbn 
 /* Task 3: finalScore()
 
-Write a higher order function called `finalScore` that accepts the callback function `inning` (from above) and a number of innings and and returns the final score of the game in the form of an object.
+Write a higher order function called `finalScore` that accepts the callback function `inning` (from above) and a number of 
+innings and and returns the final score of the game in the form of an object.
 
 For example, 
 
