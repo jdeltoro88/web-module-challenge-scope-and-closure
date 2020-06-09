@@ -1,6 +1,7 @@
 # Scope and Closure Challenge
 
-The module challenge is the afternoon project or assignment that students work through independently. This expands on the guided project completed earlier with the instructor.
+The module challenge is the afternoon project or assignment that students work through independently. 
+This expands on the guided project completed earlier with the instructor.
 
 ## JavaScript Foundations
 
@@ -9,6 +10,7 @@ The module challenge is the afternoon project or assignment that students work t
 ## Objectives
 
 - Explain function scope
+
 - Describe what closure is, how closure is created in a program and why it is important to understand closures in JavaScript  
 
 ## Introduction
@@ -31,7 +33,7 @@ There are layers upon layers of nested functions within the game of baseball. Yo
 2. Clone _your_ fork (not Lambda's repo by mistake!)
 3. `cd` into your newly cloned repository
 4. Create a new branch by typing `git checkout -b <firstName-lastName>`
-5. Work on your branch, push commits and create PR as usual
+5. Work on your branch, push commits and create PR as usual'[[]]
 
 ### Task 2a - MVP code
 
@@ -42,6 +44,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+   
 2. Study the following code, then answer the questions below.
 
 ```js
